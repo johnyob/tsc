@@ -1,0 +1,6 @@
+(executable
+ (name main)
+ (public_name tsc.main)
+ (libraries core tsc)
+ (preprocess
+  (pps ppx_jane)))
